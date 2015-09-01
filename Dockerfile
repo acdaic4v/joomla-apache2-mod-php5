@@ -4,5 +4,8 @@
 FROM joomla:3.4.3
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
+# Rename original config file
+RUN /bin/mv /etc/apache2/mods-available/php5.load /etc/apache2/mods-available/php5.load.or
+
 # Install the module and give me a vi
 RUN apt-get update && apt-get install -y libapache2-mod-php5 vim
