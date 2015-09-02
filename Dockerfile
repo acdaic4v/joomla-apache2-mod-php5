@@ -9,3 +9,6 @@ RUN /bin/mv /etc/apache2/mods-available/php5.load /etc/apache2/mods-available/ph
 
 # Install the module and give me a vi
 RUN apt-get update && apt-get install -y libapache2-mod-php5 vim
+
+# Enable mbstring to use UTF-8
+RUN docker-php-ext-install mbstring
