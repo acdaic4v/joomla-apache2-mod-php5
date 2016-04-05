@@ -1,5 +1,5 @@
 # Dockerfile Joomla with Multibyte String
-# acdaic4v 01.09.2015
+# acdaic4v 05.04.2016
 
 FROM joomla:3.5
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
