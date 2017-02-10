@@ -1,7 +1,7 @@
 # Dockerfile Joomla with Multibyte String
 # acdaic4v 05.04.2016
 
-FROM joomla:3.6.4
+FROM joomla:3.6.5
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Rename original config file
